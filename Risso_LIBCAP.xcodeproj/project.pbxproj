@@ -207,6 +207,8 @@
 		954D315A1DFB024100FBCC76 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				OTHER_CFLAGS = "";
+				OTHER_LDFLAGS = "-lpcap";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
@@ -214,6 +216,8 @@
 		954D315B1DFB024100FBCC76 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				OTHER_CFLAGS = "";
+				OTHER_LDFLAGS = "-lpcap";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
